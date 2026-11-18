@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Educação Financeira para Todos</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Educação Financeira</div>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#materiais">Materiais</a>
+        <a href="#dicas">Dicas</a>
+        <a href="#pesquisa">Questionário</a>
+        <a href="#resultados">Gráficos</a>
+    </nav>
+</header>
+
+<section id="inicio" class="hero">
+    <div class="hero-content">
+        <span class="tag">Educação e planejamento</span>
+        <h1>EDUCAÇÃO FINANCEIRA PARA TODOS</h1>
+
+        <p>
+            Olá, sou estudante de Sistemas de informação e este site tem o intuito de ajudar a compreender,
+            conhecer um pouco sobre seu perfil financeiro.
+            Agradeço pela visita e espero contribuir.
+        </p>
+
+        <a href="#pesquisa" class="botao">
+            Conheça seu perfil financeiro
+        </a>
+    </div>
+</section>
+
+<section id="sobre" class="secao">
+    <h2>O que é Educação Financeira?</h2>
+
+    <p>
+        Educação financeira é um processo em que um indivíduo busca e obtém
+        conhecimento para lidar com o dinheiro de forma mais consciente e com objetivos traçados.
+    </p>
+
+    <div class="cards">
+        <article class="card">
+            <h3>Organização</h3>
+            <p>Aprenda a controlar sua renda e suas despesas. Anote sua renda mensal e registre todas as suas despesas,
+                faça isso mensalmente e passará a conhecer seu perfil financeiro.
+            </p>
+        </article>
+
+        <article class="card">
+            <h3>Planejamento</h3>
+            <p>Estabeleça metas e organize seu futuro financeiro. É muito importante estabelecer metas, veja quais são as suas necessidades,
+                sonhos e organize um futuro melhor.
+            </p>
+        </article>
+
+        <article class="card">
+            <h3>Economia</h3>
+            <p> Com a organização e planejamento, passaremos a conhecer melhor a utilização do dinheiro.
+            </p>
+        </article>
+    </div>
+</section>
+
+<section id="materiais" class="secao fundo">
+    <h2>Materiais para aprender</h2>
+
+    <div class="cards">
+        <article class="card">
+            <h3>Pai Rico, Pai Pobre</h3>
+            <p>Robert Kiyosaki. Conceitos de patrimônio e
+            mentalidade financeira.</p>
+        </article>
+
+        <article class="card">
+            <h3>O Homem Mais Rico da Babilônia</h3>
+            <p>George S. Clason. Princípios de economia
+            e planejamento.</p>
+        </article>
+
+        <article class="card">
+            <h3>Me Poupe!</h3>
+            <p>Nathalia Arcuri. Organização financeira
+            e investimentos.</p>
+        </article>
+    </div>
+
+    <h3 class="subtitulo">Dicas e Sites</h3>
+
+    <ul class="links">
+        <li>
+            <a href="https://www.bcb.gov.br/cidadaniafinanceira"
+               target="_blank" rel="noopener">
+               Banco Central – Cidadania Financeira
+            </a>
+        </li>
+        <li>
+            <a href="https://www.gov.br/investidor"
+               target="_blank" rel="noopener">
+               Portal do Investidor
+            </a>
+        </li>
+
+    </ul>
+</section>
+
+<section id="dicas" class="secao">
+    <h2>Dicas para cuidar do seu dinheiro</h2>
+
+    <div class="cards">
+        <article class="card">
+            <h3>01. Anote seus gastos e renda</h3>
+            <p>Registre tudo o que você recebe e gasta.</p>
+        </article>
+
+        <article class="card">
+            <h3>02. Evite dívidas</h3>
+            <p>Tenha atenção ao crédito e aos juros.</p>
+        </article>
+
+        <article class="card">
+            <h3>03. Tenha objetivos</h3>
+            <p>Defina metas financeiras possíveis de alcançar.</p>
+        </article>
+
+        <article class="card">
+            <h3>04. Crie uma reserva</h3>
+            <p>Guarde uma quantia sempre que possível.</p>
+        </article>
+    </div>
+</section>
+
+<section id="pesquisa" class="secao fundo">
+    <h2>Questionário Financeiro</h2>
+
+    <p class="introducao">
+        Responda às perguntas abaixo e conheça melhor
+        sua situação financeira.
+    </p>
+
+    <form id="formFinanceiro">
+
+        
+<form id="formFinanceiro">
+
+    <label for="renda">Sua renda mensal individual (R$):</label>
+    <input type="number" id="renda"
+           min="0" step="0.01" required>
+
+    <h3>Seus gastos mensais (R$)</h3>
+
+    <label for="moradia">Moradia:</label>
+    <input type="number" id="moradia"
+           min="0" step="0.01" required>
+
+    <label for="alimentacao">Alimentação:</label>
+    <input type="number" id="alimentacao"
+           min="0" step="0.01" required>
+
+    <label for="transporte">Transporte:</label>
+    <input type="number" id="transporte"
+           min="0" step="0.01" required>
+
+    <label for="saude">Saúde e educação:</label>
+    <input type="number" id="saude"
+           min="0" step="0.01" required>
+
+    <label for="lazer">Lazer:</label>
+    <input type="number" id="lazer"
+           min="0" step="0.01" required>
+
+    <label for="outros">Outros gastos:</label>
+    <input type="number" id="outros"
+           min="0" step="0.01" required>
+
+    <button type="submit" class="botao">
+        Analisar minha situação financeira
+    </button>
+
+</form>
+
+    <div id="mensagemResultado" aria-live="polite"></div>
+</section>
+
+<section id="resultados" class="secao">
+    <h2>Resultados e gráficos</h2>
+
+    <p>
+        Confira a distribuição da sua renda e dos seus
+        principais gastos.
+    </p>
+
+    <div id="resumo" class="cards"></div>
+
+    <div class="graficos">
+        <article class="card">
+            <h3>Distribuição dos gastos</h3>
+            <canvas id="graficoGastos"></canvas>
+        </article>
+
+        <article class="card">
+            <h3>Renda e despesas</h3>
+            <canvas id="graficoRenda"></canvas>
+        </article>
+    </div>
+
+    <button id="limparDados" class="botao secundario"
+            type="button">
+        Apagar meus dados deste navegador
+    </button>
+</section>
+
+<footer>
+    <h3>EDUCAÇÃO FINANCEIRA PARA TODOS</h3>
+    <p>Conhecimento hoje, tranquilidade amanhã!</p>
+    <p>Projeto educativo de conscientização financeira.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
